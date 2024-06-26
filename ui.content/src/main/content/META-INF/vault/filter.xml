@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/Umika" mode="merge"/>
+    <filter root="/content/Umika" mode="merge"/>
+    <filter root="/content/dam/Umika" mode="merge">
+        <exclude pattern="/content/dam/Umika(/.*)?"/>
+        <include pattern="/content/dam/Umika/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/Umika/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/Umika" mode="merge"/>
+</workspaceFilter>

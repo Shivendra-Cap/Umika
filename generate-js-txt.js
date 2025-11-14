@@ -1,6 +1,8 @@
+
 /**
  * Auto-generates AEM js.txt from Angular build output.
  * Includes all chunk files like main.js, runtime.js, 123.xxxxx.js etc.
+ *ui.frontend/angular-apps/scripts/generate-js-txt.js
  */
 
 const fs = require("fs");
